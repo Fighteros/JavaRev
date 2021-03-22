@@ -4,11 +4,11 @@ public class Circle {
     // The radius of this circle is
     double radius = 1.0;
     // construct a circle
-    Circle(){
+    public Circle(){
 
     }
     // construct a cirlce object
-    Circle(double radius){
+    public Circle(double radius){
         this.radius = radius;
     }
     // return the area
